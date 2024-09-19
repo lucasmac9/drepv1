@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Lucas.Macchiavelli",
+    "motivations": "I’m motivated by the potential of Cardano to create lasting, positive change, particularly in my home country of Argentina, where economic instability and political challenges are significant. \n\nBy leveraging my professional experience in marketing, business development, and community building, I’m committed to making Cardano a cornerstone of global blockchain adoption, driving meaningful impact in Latin America and beyond.\n\nKey Values\n\n- Security over speed. \n\n- Prioritize long-term over short-term\n\n- Preserve user sovereignty in a permissionless system. \n\n- Reject speculative projects—no token burning or valueless hype. \n\n- Decentralization must be effective.\n\n- Smart use of treasury resources. \n\n- Ensure financial sustainability of the Protocol\n\n- Increase nodes and governance participation over time. \n\nFind more in the DRep Whitepaper (links below).",
+    "objectives": "As a Cardano DRep, my goal is to drive exponential but sustainable growth for the Cardano ecosystem by addressing 3 key challenges for Cardano:\n\n-  Lack of structured business development\n\n- Ineffective communication strategies \n\n- Limited funding for projects\n\nAs a DRep, I aim to push for a clearer, more compelling narrative that showcases Cardano’s strengths, positioning it as a leader in decentralization, sustainability and security\n\nMy strategy involves professionalizing business development and forming strategic partnerships with governments, businesses, and NGOs, ensuring real-world adoption. I want to transform Cardano into a global brand, driving both investment and user engagement. \n\nUltimately, I envision Cardano as a major player in the decentralized technological revolution, offering long-term value for users and promoting an ecosystem built on trust, innovation, and economic inclusion.\n\nFind more details in the DRep Whitepaper (links below).\n\n",
+    "paymentAddress": "addr1q99x947ld7q7suus5ce64d303u3svkue7te793lctsxgyjxwasadu8nc86ppfrhxnse0qemhnavpw8rs4eerklv3m9rsf2xw0v",
+    "qualifications": "I have worked to promote Cardano for +3 years. Co Founded Token Allies and the LATAM Cardano Community. Additionally, I lead the Cardano Newsletter and have used social media to expand Cardano to hundreds of thousands of people. As a Cardano Ambassador, I have held key meetings with figures from the political sector in Argentina to promote the adoption of Cardano.\n\nActions needed for Cardano. \n\n- Define a clear narrative & Identify Cardano's target audience. \n\n- Improve Cardano’s image in traditional and non-traditional media.\n\n-  A coordinated business development effort for the ecosystem, with a focus on partnerships & engagement with Industry Leaders\n\n- Support content creators from within Cardano to grow the community.\n\n- Localized onboarding Strategy\n\n- Optimized landing pages for Cardano for different users. \n\nFind more in the DRep Whitepaper (links below).",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Link to my DRep WhitePaper",
+        "uri": "https://drive.google.com/drive/folders/1ORoGrvesNnOXax6_mXlWvuIquwu7shXE?usp=sharing"
+      },
+      {
+        "@type": "Identity",
+        "label": "My X Account",
+        "uri": "https://twitter.com/LucasMacchia2"
+      },
+      {
+        "@type": "Identity",
+        "label": "My Linkedin Account",
+        "uri": "https://www.linkedin.com/in/lucas-macchiavelli-0525581a9/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Cardano Newsletter",
+        "uri": "https://cardanonewsletter.com/"
+      }
+    ]
+  }
+}
